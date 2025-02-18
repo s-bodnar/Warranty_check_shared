@@ -1,0 +1,20 @@
+ok  Passer la requête en asynchrone via JS
+ok  Figer les champs du form lors de l'envoi de la requête
+ok  En retour de requête, vérifier si 
+        - le S/N est valide => comment?
+        - le S/N est enregistré (IsMachineRegistered)
+        - le nb de jour de garantie restant est > 0 (DaysRemaining)
+        - Handle RegistrationSource = "Commercial"
+        - Add registration status
+ok  Ajouter du style!
+
+    Test S/N:
+        2311053650 - (Tara Hudson) - Warranty active
+        2311053635 - Not registered
+        2205014360 - Commercial product from LIQ database
+        2105014360 - Expired warranty 
+
+
+ok  Make a better S/N validation by allowign only 10 characters numerical       
+
+    Give an error style to the error messages

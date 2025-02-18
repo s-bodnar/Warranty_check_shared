@@ -1,0 +1,66 @@
+body {
+    background-color: #FCFCFC;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 15px 0 15px 0;
+}
+
+label {
+    font-size: 1.5rem;
+    margin: 10px 0 10px 0;
+}
+
+td {
+    border-bottom: 1px solid #f0f0f0;
+    height: 1.9rem;
+    padding-right: 1.2rem
+}  
+
+#warranty-status {
+    margin-top: 1rem;
+}
+
+.input-text {
+    border: solid 1px #ced4da;
+    border-radius: 3px;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    height: 50px;
+    color: #495057;
+    margin: 1rem 0;
+    padding: .375rem .75rem;
+    min-width: 200px;
+}
+
+.btn {
+    font-size: 1.12rem;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #f04924;
+    color: white;
+    padding: 12px 65px;
+    border-radius: 0px;
+}
+
+.ibm-plex-serif-bold {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.ibm-plex-serif-semibold {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
